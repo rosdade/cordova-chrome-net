@@ -532,8 +532,8 @@ function Socket (options) {
 
   if (!listenersAdded) {
     if (typeof chrome !== 'undefined') {
-      chrome.sockets.tcpServer.onAccept.addListener(onAccept)
-      chrome.sockets.tcpServer.onAcceptError.addListener(onAcceptError)
+      //chrome.sockets.tcpServer.onAccept.addListener(onAccept)
+      //chrome.sockets.tcpServer.onAcceptError.addListener(onAcceptError)
       chrome.sockets.tcp.onReceive.addListener(onReceive)
       chrome.sockets.tcp.onReceiveError.addListener(onReceiveError)
       listenersAdded = true
