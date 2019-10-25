@@ -42,7 +42,7 @@
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "git://github.com/theveloped/cordova-chrome-net"
+    "url": "git://github.com/rosdade/cordova-chrome-net"
   },
   "scripts": {
   }
